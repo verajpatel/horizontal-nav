@@ -16,10 +16,10 @@ html {
   text-align: center;
 }
 
-  header {
-    font-family: Bevan, sans-serif;
-    text-align: center;
-  }
+h1 {
+  font-family: Bevan, sans-serif;
+  text-align: center;
+}
 
 .links a {
   display: inline-block;
@@ -30,16 +30,15 @@ html {
 
 body {
   display: inline-block;
-  margin: 0 .5em 1em;
+  margin: .6em;
   max-width: 20em;
   padding: 1em;
   background-color: #79756f;
   border: 3px solid #595652;
   border-radius: 10px;
+  text-align: center;
 }
 
 .links a:hover {
   background-color: #f33;
-  }
-
 }
