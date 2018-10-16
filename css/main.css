@@ -1,15 +1,14 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  color: #fff;
   border: 3px solid #595652;
   line-height: 1.5;
   list-style-type: none;
 }
 
 body {
-    background-color: #79756F;
-    margin: .3em;
+  background-color: #79756f;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -18,13 +17,15 @@ body {
 
 .links {
   margin: .3em;
-  padding: .5rem;
+  padding: 0;
   text-align: center;
 }
 
 h1 {
-  font-family: Bevan, sans-serif;
+  color: #fff;
+  font-family: Bevan, serif;
   text-align: center;
+  margin: 0;
 }
 
 .links a {
@@ -32,11 +33,13 @@ h1 {
   padding: .5em .75em;
   background-color: #713837;
   border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .links li {
   display: inline-block;
-  margin: .1rem;
+  margin: .3em;
   max-width: 20em;
 }
 
